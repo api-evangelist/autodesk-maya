@@ -1,0 +1,95 @@
+name: Autodesk Maya API
+description: APIs and SDKs for Autodesk Maya, a comprehensive 3D computer graphics application used for creating interactive 3D applications including video games, animated films, TV series, and visual effects.
+image: https://www.autodesk.com/products/maya/overview
+tags:
+- 3D Graphics
+- Animation
+- Visual Effects
+- Modeling
+- Rendering
+- Game Development
+created: '2024'
+modified: '2024'
+url: https://www.autodesk.com/developer-network/platform-technologies/maya
+specificationVersion: '0.16'
+apis:
+- name: Maya Python API
+  description: Python API for scripting and extending Maya functionality, providing access to Maya's scene graph and node architecture.
+  image: https://www.autodesk.com/products/maya/overview
+  humanURL: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseURL: https://localhost
+  tags:
+  - Python
+  - Scripting
+  - Automation
+  properties:
+  - type: Documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_Python_API_Maya_Python_API_2_0_html
+  - type: API Reference
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_py_ref_index_html
+  - type: Getting Started
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_Python_API_Python_API_2_0_Quick_Start_html
+- name: Maya C++ API
+  description: C++ API providing low-level access to Maya's core functionality for creating plugins, custom nodes, and high-performance tools.
+  image: https://www.autodesk.com/products/maya/overview
+  humanURL: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseURL: https://localhost
+  tags:
+  - C++
+  - Plugins
+  - Performance
+  - Native
+  properties:
+  - type: Documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_cpp_ref_index_html
+  - type: API Reference
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_cpp_ref_index_html
+  - type: Developer Guide
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_SDK_Maya_SDK_html
+- name: Maya Commands (MEL)
+  description: Maya Embedded Language (MEL) scripting interface for automating tasks and customizing Maya workflows.
+  image: https://www.autodesk.com/products/maya/overview
+  humanURL: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseURL: https://localhost
+  tags:
+  - MEL
+  - Scripting
+  - Commands
+  - Automation
+  properties:
+  - type: Documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__CommandsPython_index_html
+  - type: Command Reference
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__Commands_index_html
+  - type: MEL Guide
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__files_GUID_58E4E64B_79C4_46E3_B0A7_CD7D2BFD3BFF_htm
+- name: Maya USD API
+  description: Universal Scene Description (USD) integration for Maya, enabling exchange of 3D content between applications.
+  image: https://www.autodesk.com/products/maya/overview
+  humanURL: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseURL: https://localhost
+  tags:
+  - USD
+  - Pipeline
+  - Interchange
+  - Scene Description
+  properties:
+  - type: Documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-C7DB6AF9-653E-4B49-93D6-F9C2D0865B85
+  - type: GitHub Repository
+    url: https://github.com/Autodesk/maya-usd
+common:
+- type: Developer Portal
+  url: https://www.autodesk.com/developer-network/platform-technologies/maya
+- type: Support
+  url: https://forums.autodesk.com/t5/maya-programming/bd-p/area-c-maya-programming
+- type: Blog
+  url: https://www.autodesk.com/blogs/maya/
+- type: Downloads
+  url: https://www.autodesk.com/products/maya/free-trial
+- type: License
+  url: https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services
+maintainers:
+- name: Autodesk
+  email: developer.support@autodesk.com
+  url: https://www.autodesk.com
