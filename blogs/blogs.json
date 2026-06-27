@@ -3,13 +3,10 @@
   "feeds": [
     {
       "source": "https://www.autodesk.com/blogs/maya/",
-      "error": "timeout"
-    },
-    {
-      "source": "https://forums.autodesk.com/t5/maya-programming/bd-p/area-c-maya-programming",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "HTTP 403 Forbidden"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:26:19Z",
+  "post_count": 0
 }
