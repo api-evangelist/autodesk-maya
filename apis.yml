@@ -140,6 +140,12 @@ apis:
         url: https://github.com/Autodesk/bifrost-usd
 
 common:
+  - type: IssueTracker
+    url: https://github.com/Autodesk/maya-usd/issues
+  - type: Releases
+    url: https://github.com/Autodesk/maya-usd/releases
+  - type: SecurityPolicy
+    url: https://github.com/Autodesk/maya-usd/blob/dev/SECURITY.md
   - type: DomainSecurity
     url: security/autodesk-maya-domain-security.yml
   - type: Portal
