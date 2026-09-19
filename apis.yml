@@ -108,6 +108,11 @@ apis:
   baseURL: https://localhost
   tags:
   - Interchange
+  - Pipelines
+  - Scene Description
+  - USD
+  tags_raw:
+  - Interchange
   - Pipeline
   - Scene Description
   - USD
