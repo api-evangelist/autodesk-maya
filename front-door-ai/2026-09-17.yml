@@ -1,0 +1,21 @@
+# Front Door AI Index — autodesk-maya — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: autodesk-maya
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: autodesk.com
+  final_host: www.autodesk.com
+  ownership: own
+  owner: autodesk-maya
+  shares_host_with: null
+  inherited_from: null
+  verdict: unmeasured
+  score: null
+  host_score: null
+  density: null
+  words: null
+  tiers: null
+  ambiguous: null
+  top_terms: null
