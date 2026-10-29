@@ -1,4 +1,4 @@
-# Autodesk Maya (autodesk-maya)
+# Autodesk Maya
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,141 +66,108 @@
 
 Autodesk Maya is a comprehensive 3D computer graphics application used for creating interactive 3D applications including video games, animated films, TV series, and visual effects. Maya provides multiple programming APIs including a Python API, C++ plugin API, MEL scripting language, USD integration, and Bifrost visual programming environment for extending and automating Maya workflows and creating custom tools and plugins.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/autodesk-maya/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/autodesk-maya/refs/heads/main/apis.yml)
+**Areas:** 3D Graphics · Animation · Game Development · Modeling · Rendering · Visual Effects · VFX · CAD
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Autodesk Maya on APIs.io
 
-## Tags:
+Everything profiled for Autodesk Maya is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/autodesk-maya/](https://apis.io/providers/autodesk-maya/)** — or go straight to one of the APIs or properties below.
 
- - 3D Graphics, Animation, Game Development, Modeling, Rendering, Visual Effects, VFX, CAD
+### APIs (5)
 
-## Timestamps
+- [Maya Python API](https://apis.io/apis/autodesk-maya/maya-python-api/) — Python API for scripting and extending Maya functionality, providing access to Maya's scene graph and node architecture. Includes Python API 2.0 with a more…
+- [Maya C++ API](https://apis.io/apis/autodesk-maya/maya-cpp-api/) — C++ API providing low-level access to Maya's core functionality for creating plugins, custom nodes, and high-performance tools. The API is organized into…
+- [Maya Commands (MEL)](https://apis.io/apis/autodesk-maya/maya-mel-commands/) — Maya Embedded Language (MEL) scripting interface for automating tasks and customizing Maya workflows. MEL provides direct access to Maya commands and is the…
+- [Maya USD API](https://apis.io/apis/autodesk-maya/maya-usd-api/) — Universal Scene Description (USD) integration for Maya, enabling exchange of 3D content between applications. Provides tools for importing, exporting, and…
+- [Maya Bifrost API](https://apis.io/apis/autodesk-maya/maya-bifrost-api/) — Bifrost is Maya's visual programming environment for creating simulation and procedural effects. It provides a node-based graph editor for building complex…
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Maya Python API
+#### Security (1)
 
-Python API for scripting and extending Maya functionality, providing access to Maya's scene graph and node architecture. Includes Python API 2.0 with a more Pythonic workflow and improved performance via maya.api.OpenMaya, as well as Python API 1.0 via maya.OpenMaya and the maya.cmds wrapper for MEL commands.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2026/ENU/](https://help.autodesk.com/view/MAYAUL/2026/ENU/)
+- [Autodesk Maya Domain Security](https://apis.io/security/autodesk-maya/autodesk-maya-domain-security/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - Automation, Python, Scripting
+Published plans, tiers and prices.
 
-#### Properties
+- [Autodesk Maya Plans Pricing](https://apis.io/plans/autodesk-maya/autodesk-maya-plans-pricing/)
 
-- [Documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_Python_API_Maya_Python_API_2_0_html)
-- [APIReference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_py_ref_index_html)
-- [GettingStarted](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_Python_API_Python_API_2_0_Quick_Start_html)
+#### Rate limits (1)
 
-### Maya C++ API
+Published request limits.
 
-C++ API providing low-level access to Maya's core functionality for creating plugins, custom nodes, and high-performance tools. The API is organized into functional libraries including OpenMaya, OpenMayaUI, OpenMayaAnim, OpenMayaFX, and OpenMayaRender.
+- [Autodesk Maya Rate Limits](https://apis.io/rate-limits/autodesk-maya/autodesk-maya-rate-limits/)
 
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2026/ENU/](https://help.autodesk.com/view/MAYAUL/2026/ENU/)
+#### FinOps (1)
 
-#### Tags:
+What the API costs to run, by operation.
 
- - C++, Native, Performance, Plugins
+- [Autodesk Maya Finops](https://apis.io/finops/autodesk-maya/autodesk-maya-finops/)
 
-#### Properties
+## Where to find this API
 
-- [Documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_cpp_ref_index_html)
-- [APIReference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_cpp_ref_index_html)
-- [GettingStarted](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_SDK_Maya_SDK_html)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-### Maya Commands (MEL)
-
-Maya Embedded Language (MEL) scripting interface for automating tasks and customizing Maya workflows. MEL provides direct access to Maya commands and is the foundation of Maya's scripting capabilities.
-
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2026/ENU/](https://help.autodesk.com/view/MAYAUL/2026/ENU/)
-
-#### Tags:
-
- - Automation, Commands, MEL, Scripting
-
-#### Properties
-
-- [Documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__CommandsPython_index_html)
-- [APIReference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__Commands_index_html)
-
-### Maya USD API
-
-Universal Scene Description (USD) integration for Maya, enabling exchange of 3D content between applications. Provides tools for importing, exporting, and working with USD stages and layers within Maya.
-
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2026/ENU/](https://help.autodesk.com/view/MAYAUL/2026/ENU/)
-
-#### Tags:
-
- - Interchange, Pipeline, Scene Description, USD
-
-#### Properties
-
-- [Documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-C7DB6AF9-653E-4B49-93D6-F9C2D0865B85)
-- [GitHubRepository](https://github.com/Autodesk/maya-usd)
-
-### Maya Bifrost API
-
-Bifrost is Maya's visual programming environment for creating simulation and procedural effects. It provides a node-based graph editor for building complex effects including fluids, particles, destruction, and procedural geometry, with SDK support for custom node development.
-
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2026/ENU/?guid=GUID-1223AA4F-1CD7-473C-87EA-C16C6B28F7FD](https://help.autodesk.com/view/MAYAUL/2026/ENU/?guid=GUID-1223AA4F-1CD7-473C-87EA-C16C6B28F7FD)
-
-#### Tags:
-
- - Bifrost, Particles, Procedural Effects, Simulation, Visual Programming
-
-#### Properties
-
-- [Documentation](https://help.autodesk.com/view/MAYAUL/2026/ENU/?guid=Bifrost_MayaPlugin_bifrost_for_maya_html)
-- [GitHubRepository](https://github.com/Autodesk/bifrost-usd)
-
-## Common Properties
-
-- [Portal](https://www.autodesk.com/developer-network/platform-technologies/maya)
+- [Website](https://autodesk.com)
 - [Documentation](https://help.autodesk.com/view/MAYADEV/2026/ENU/)
 - [Support](https://forums.autodesk.com/t5/maya-programming/bd-p/area-c-maya-programming)
 - [Blog](https://www.autodesk.com/blogs/maya/)
-- [Tutorials](https://tutorials.autodesk.io/)
-- [ReleaseNotes](https://help.autodesk.com/view/MAYAUL/2026/ENU/?guid=MAYA_RELEASENOTES_2026_RELEASE_NOTES_HTML)
-- [TermsOfService](https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services)
-- [GitHubOrganization](https://github.com/autodesk-platform-services)
+- [Terms of service](https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services)
+- [GitHub](https://github.com/autodesk-platform-services)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Python API 2.0 | Modern Pythonic API with improved performance and a cleaner interface for accessing Maya's node architecture and scene graph via maya.api.OpenMaya. |
-| C++ Plugin SDK | Low-level C++ API for high-performance plugin development with access to Maya's full internal architecture through OpenMaya functional libraries. |
-| MEL Scripting | Maya Embedded Language for command-line scripting, UI automation, and batch processing of Maya scenes and assets. |
-| USD Integration | Universal Scene Description support for importing, exporting, and working with USD assets within Maya for cross-application 3D content pipelines. |
-| Bifrost Visual Programming | Node-based visual programming environment for creating procedural effects, simulations, and custom workflows without traditional coding. |
-| Custom Node Development | Create custom dependency graph nodes, deformers, and shape nodes that integrate natively into Maya's scene graph and evaluation system. |
+**Kin Score 22.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| VFX Pipeline Integration | Integrating Maya into visual effects production pipelines with custom tools, asset management systems, and render farm automation. |
-| Game Asset Automation | Automating game asset creation, optimization, and export workflows for game engines like Unreal Engine and Unity through Maya scripting. |
-| Animation Workflow Tools | Building custom rigging systems, animation controls, and workflow tools to accelerate character animation production for film and TV. |
-| Procedural Content Generation | Using Bifrost and Python APIs to generate procedural geometry, textures, and scene content for games, visualization, and architectural projects. |
-| DCC Pipeline Development | Developing studio pipeline tools that automate scene assembly, asset tracking, and data interchange between Maya and other DCC applications. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Autodesk Arnold | Integration with Arnold renderer via the MtoA (Maya to Arnold) plugin for photorealistic rendering of Maya scenes. |
-| Unreal Engine | USD-based pipeline integration with Unreal Engine for game asset export and visualization workflows. |
-| ShotGrid (Flow Production Tracking) | Integration with Autodesk ShotGrid for production tracking, asset management, and review workflows in film and TV production. |
-| Houdini | Interoperability with SideFX Houdini via USD and Alembic for visual effects simulation and procedural content pipelines. |
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/autodesk-maya/](https://apis.io/providers/autodesk-maya/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Autodesk Maya: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/autodesk-maya/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
